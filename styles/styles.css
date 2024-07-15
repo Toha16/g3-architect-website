@@ -128,6 +128,59 @@ main > section{
     padding-bottom: 32px;
 }
 
+/* feature related style */
+
+.features{
+    max-width: 1440px;
+    height: 1059px;
+    gap: 145px;
+}
+.section-title{
+    color: rgb(19, 19, 19);
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.section-description{
+    padding-bottom: 20px;
+}
+#feature-section-border{
+    border-left: 5px solid rgb(255, 144, 14);
+    padding-left: 21px;
+}
+.feature-card, .feature-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.feature-description{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.feature-card{
+    padding: 20px 42px 10px 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+#experience-badge{
+    position: relative;
+    bottom: 10%;
+    right: 12%;
+    width: 342px;
+    height: 200px;
+    border: none;
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+#experience-year{
+   font-size: 4rem;
+   font-weight: 700;
+}
+
+
 /* Responsive Media Query */
 
 @media screen and (max-width:576px) {
